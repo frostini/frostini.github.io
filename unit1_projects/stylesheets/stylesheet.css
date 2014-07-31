@@ -1,0 +1,411 @@
+/* General Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  ========================================
+  Styling
+  ========================================
+  ========================================
+*/
+
+
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+
+header {
+  width: 1280px;
+  height: 778px;
+  background-image: url("header_img.jpg");
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+#nav-container {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  margin-top: 510px;
+}
+
+
+#nav-bar {
+	clear: both;
+	position: relative;
+	width: 100% ;
+	background-color: white;
+	height: 150px ;
+}
+
+#nav-text {
+float: left;
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+display: inline-block;
+margin-top: 40px;
+margin-left: 50px;
+}
+
+#name {
+font-family: 'Pacifico', cursive;
+font-size: 30px;
+}
+
+#nav-pic-frame {
+float: right;
+display: inline-block;
+position: absolute;
+right: 50px;
+z-index:+1;
+}
+
+#nav-pic {
+border: 10px solid white;
+border-radius: 4px; 
+}
+
+
+/*
+  ========================================
+  Body 
+  ========================================
+*/
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  height: 1000px;
+  clear: both;
+}
+
+
+/*
+  ========================================
+ Aside
+  ========================================
+*/
+
+
+#aside {
+  float: left;
+  width: 320px;
+  height: 100%;
+  position: relative;
+  padding: 0px;
+  background-color: purple
+}
+
+#aside-pic {
+border: 10px solid white;
+border-radius: 5px;
+position: absolute;
+right: 75px;
+top: 175px;
+}
+
+#aside-title {
+	display: block;
+	width: 250px;
+	height: 50px;
+	right: 30px;
+	position: absolute;
+	margin-top: 50px;
+	background-color: white;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 42px;
+	border-width: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#aside-text{
+	display: block;
+	width: 250px;
+	height: 500px;
+	top: 40%;
+	right: 30px;
+	position: absolute;
+	background-color: white;
+	border-width: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+#aside-menu{
+	display: block;
+	width: 250px;
+	height: 500px;
+	top: 40%;
+	right: 30px;
+	position: absolute;
+	background-color: white;
+	text-align: left;
+	border-width: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*
+  ========================================
+  Content 
+  ========================================
+*/
+
+/* //////////==== Blog ====\\\\\\\\\\\\\ */
+
+
+#blog-section {
+  display: block;
+  width: 960px;
+  height: 1000px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.blog-post{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* ==== Post Header ==== */
+
+.blog-post-header{
+	display: block;
+	width: 960px;
+	height: 125px;
+	position: relative;
+	text-align: center;
+	z-index: +1;
+}
+
+/* ==== Post Title ==== */
+
+.blog-post-title{
+	display: block;
+	font-family: 'Pacifico', cursive;
+	font-size: 42px;	
+	position: relative;
+	top: 50px;
+}
+
+/* ==== Post Body ==== */
+
+.blog-post-body{
+	display: block;
+	clear: both;
+	width: 960px;
+	height: 875px;
+}
+
+/* ==== Post Intro ==== */
+
+.blog-intro{
+	display: block;
+	width: 840px;
+	height: 175px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.post-intro-text{
+	display: block;
+	position: relative;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+
+
+
+/* ==== Review Aside ==== */
+
+#website-review-1{
+	clear: both;
+}
+
+.review-aside {
+  float: left;
+  width: 320px;
+  height: 235px;
+  position: relative;
+  padding: 0px;
+  background-color: purple;
+  border-color: solid 10px purple;
+}
+
+
+.review-aside-title {
+	display: block;
+	width: 300px;
+	height: 30px;
+	position: relative;
+	padding-top: 5px;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	border: solid 10px purple;
+}
+
+
+.review-aside-img {
+display: block;
+width: 300px;
+height: 140px;
+border: 10px solid purple;
+position: relative;
+}
+
+/* ==== Review Body ==== */
+
+
+.review-body {
+	display: block;
+	float: right;
+	width: 620px;
+	height: 215px;
+	border: solid 10px purple;
+	background-color: white;
+}
+
+
+.review-text {
+	display: block;
+	width: 600px;
+	height: 180px;
+	padding: 10px;
+	position: relative;
+	text-align: left;
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px;
+	line-height: 18px;
+	z-index: +1;
+}
+
+
+/* ==== Gen-post-body ==== */
+#gen-post-body{
+	display: block;
+	width: 840px;
+	height: 275px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+
+
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer {
+  clear: both;
+  display: block;
+  width: 1280px;
+  height: 112px;
+  background-image: url("page_footer.jpg");
+}
+
+#footer-year {
+	font-family: 'Reenie Beanie', cursive;
+	display: block;
+	float:left;
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 25px;
+	left: 25px;
+	text-align: center;
+	font-size: 30px;
+	color: purple;
+	border: solid 5px white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#footer-moment {
+	font-family: 'Reenie Beanie', cursive;
+	display: block;
+	float:right;
+	width: 640px;
+	height: 30px;
+	position: relative;
+	top: 25px;
+	right: 25px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	border: solid 5px white;
+	border-radius: 5px;
+	padding: 10px;
+}

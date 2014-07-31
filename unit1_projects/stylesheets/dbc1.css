@@ -1,4 +1,46 @@
-body{
+h1, h2, h3, h4, h5, h6{
+font-family: Georgia, serif;
+}
 
-	
+
+
+h1 {
+background-color: orange;
+}
+
+h2{
+background-color: red;
+}
+
+h3{
+background-color: yellow;
+}
+
+h4{
+background-color: green;
+}
+
+h5{
+background-color: silver;
+}
+
+h6{
+background-color: rgb(109, 63, 63);
+color: white;
+}
+div {
+	background-color: gray;
+}
+
+.paragraph {
+font-family: "Courier New", Courier, monospace;
+}
+
+#second-p{
+font-family: Verdana, Geneva, sans-serif;
+background-color: yellow;
+}
+
+#laugh{
+	background-color: white
 }

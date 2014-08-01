@@ -67,7 +67,7 @@ table {
 header {
   width: 1280px;
   height: 778px;
-  background-image: url("header_img.jpg");
+  background-image: url("../images/header_img.jpg");
 }
 
 /*
@@ -273,7 +273,7 @@ footer {
   display: block;
   width: 1280px;
   height: 112px;
-  background-image: url("page_footer.jpg");
+  background-image: url("../images/page_footer.jpg");
 }
 
 #footer-year {

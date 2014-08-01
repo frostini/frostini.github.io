@@ -409,3 +409,62 @@ footer {
 	border-radius: 5px;
 	padding: 10px;
 }
+
+
+/*
+  ========================================
+  FOR WIREFRAME ENTRY
+  ========================================
+*/
+
+#wireframe-div{
+display: block;
+width: 100%;
+height: auto;
+}
+
+
+#wireframe-header{
+	display: block;
+	font-family: 'Pacifico', cursive;
+	font-size: 42px;	
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#wireframe-subheader{
+	display: block;
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;	
+	position: relative;
+	text-align: center;
+		padding: 2% 5%;
+}
+
+#wireframe-img {
+	display: block;
+	width: 550px;
+	height: 750px;
+	margin: 0 auto;
+}
+
+
+.section-header {
+	display: block;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	line-height: 1.2em;
+	padding: 2% 5%;
+}
+
+.wireframe-text {
+	display: block;
+	text-align: justify;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	line-height: 1.2em;
+	padding: 2% 5%;
+}
+

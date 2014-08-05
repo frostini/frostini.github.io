@@ -442,7 +442,7 @@ height: auto;
 		padding: 2% 5%;
 }
 
-#wireframe-img {
+.wireframe-img {
 	display: block;
 	width: 550px;
 	height: 750px;

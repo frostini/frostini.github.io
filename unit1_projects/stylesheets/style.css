@@ -1,0 +1,212 @@
+/*
+  ========================================
+  ========================================
+STYLESHEET FOR CRAFTING CONSONANCE
+  ========================================
+  ========================================
+*/
+
+/*
+  ========================================
+  TYPOGRAPHY
+  ========================================
+*/
+
+
+
+body {
+	font: 1em/150% 'Josefin Slab', serif;;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: purple;
+}
+
+h1 {
+	font: bold 36px/100% 'Pacifico', cursive;
+	text-align: center;
+}
+
+h2 {
+	font: 30px/100% 'Josefin Slab', serif;
+	text-align: center;
+}
+
+
+h3 {
+	font: 24px/100% 'Pacifico', cursive;
+	text-align: center;
+}
+
+h4 {
+	font: 24px/100% 'Josefin Slab', serif;
+	text-align: center;
+}
+
+h5 {
+	font: 18px/100% 'Josefin Slab', serif;
+	text-align: center;
+}
+
+h6 {
+	font: 18px/100% 'Pacifico', cursive;
+	text-align: center;
+}
+ul, li, p {
+	text-align: justify;
+	padding: 0 4%;
+}
+
+#footer-content{
+	font-family: 'Reenie Beanie', cursive;
+}
+
+#about-text{
+	text-align: center;
+}
+
+/*
+  ========================================
+  STRUCTURE
+  ========================================
+*/
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#header {
+	height: 180px;
+}
+
+#aside {
+	width: 450px;
+	float: left;
+}
+
+#nav{
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+.nav-item{
+	text-align: center;
+	display: inline-block;
+}
+
+#content {
+	width: 450px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+}
+
+#footer-content {
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.blog-entry {
+	border-bottom: solid 1px black; 
+}
+
+#chrono-challenge{
+	border-top: solid 1px black;
+}
+
+#article-list{
+	list-style: none;
+}
+.article-link{
+	text-align: center;
+}
+
+
+/*
+  ========================================
+  MEDIA QUERIES
+  ========================================
+*/
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#aside {
+		width: 47%;
+	}
+	#content {
+		width: 47%;
+	}
+	#footer-content {
+		width: 94%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+
+	#aside {
+		width: auto;
+		float: none;
+		border-bottom: solid black 1px;
+	}
+	#content {
+		width: auto;
+		float: none;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+	h5 {
+	font: 18px/100% 'Josefin Slab', serif;
+	text-align: center;
+	}
+
+	h6 {
+	font: 14px/100% 'Pacifico', cursive;
+	text-align: center;
+	}
+	ul, li, p {
+	text-align: justify;
+	padding: 0 2%;
+	}
+
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	.review-image{
+		display: none;
+	}
+}
+

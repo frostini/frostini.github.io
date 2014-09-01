@@ -37,10 +37,12 @@
 					<h4 id="home-subtitle">a blog by Marlon J<span style="color:red;font-weight:bold">.</span> Frausto</h4>
 				</div>
 				<ul id="nav">
-					<li class="nav-item"><a href="uri">About</a></li>
-					<li class="nav-item"><a href="uri">Contact</a></li>
+					<li class="nav-item"><a href="http://frostini.github.io/blog.html">About</a></li>
+					<li class="nav-item"><a href="mailto:marlonjfrausto@gmail.com">Contact</a></li>
 				</ul>
 				<ul id="article-list">
+					<li class="article-link"><a href="#tech-tumult">(DBC 0.4.9) Tech Tumult</a></li>
+					<li class="article-link"><a href="#empowered-enumerables">(DBC 0.4.8) Empowered Enumerables</a></li>
 					<li class="article-link"><a href="#training-thoughts">(DBC 0.3.8) Training Thoughts</a></li>
 					<li class="article-link"><a href="#jiving-javascript">(DBC 0.3.7) Jiving Javascript</a></li>
                     <li class="article-link"><a href="#building-blocks">(DBC 0.2.6) Building Blocks</a></li>
@@ -55,6 +57,121 @@
 
 <section id="content">
 
+<!--=====================4.9 CULTURAL ENTRY===================-->
+
+  <artitle class= "blog-entry" id="tech-tumult">
+
+  	<h2> Tech Tumult:</h2>
+  	<h3> Tech--no more, no less </h3>
+<img id="cave_tech" src="unit1_projects/images/cave_tech.png" title="From cave to tech" />
+				<style>#cave_tech {
+						display: block;
+						width: 80%;
+						height: 150px;
+						margin: 0 auto;
+						}
+				</style>
+
+<p>Regardless of all the crazy, current world developments, conspiracy theories, and tabloids, I have yet to hear of a child coming out of the wound, to greet the world, with a smart phone in hand. It seems like we are heading there, however, if I was to jump to conclusions based on the inordinate amount of toddlers that I see with digital addictions. Screen sitting, as I like to call this new baby-sitting modality of keeping a kid busy with a screen, is a modern phenomenon that is decreasing our younger generation's ability to relate to life itself.</p> 
+
+<!--kid going outside-->
+
+<img id="kid_nature" src="unit1_projects/images/kid_nature.jpg" title="Some Children" />
+				<style>#kid_nature {
+						display: block;
+						width: 80%;
+						height: 200px;
+						margin: 0 auto;
+						}
+				</style>
+
+<p>While this can serve as a prime example of technology being seen as a culprit of woe, as "responsible adults", WE must develop our own discernment in identifying where technology resides in the context of human problems. Although we can easily place the blame on "lazy"/"busy" parents or the "lazy"/"disconnected" children, the problem of screen sitting is systemic in nature and not necessarily the screen's fault either.  It lies in our own ability (or inability) to manage the plethora of daily stimuli crowding our life space in the form of status updates, bills to pay, blog posts, lives to care for, invites, tweets, feeds, reality tv, etc.; and, the consequent example we set in dealing with all this stuff in our day-to-day lives. Maybe our example is becoming increasingly devoid of substance and our kids are simply coping as best they can, with what they are given? </p>
+ 
+
+<!--Dad reading newspaper-->
+<img id="kid_talk" src="unit1_projects/images/kid_talk.jpg" title="Modern Parent Child Dialogue" />
+				<style>#kid_talk {
+						display: block;
+						width: 80%;
+						height: 200px;
+						margin: 0 auto;
+						}
+				</style>
+
+
+<p>As much as it is inspired by nature, technology as we know it is a human construct. It is of no wonder why we liberaly attribute woe or wow to our technological innovations, thinking we can resolve the world's problems with technology or it is technology itself that is provoking the world's problems, when there is a human behind the perception of a problem, the creation of a possible solution, and the commentary relating to both.</p>
+
+<!--Beyond reboot-->
+<img id="prob_prog" src="unit1_projects/images/prob_prog.jpg" title="It's never too late to really reboot" />
+				<style>#prob_prog {
+						display: block;
+						width: 80%;
+						height: 200px;
+						margin: 0 auto;
+						}
+				</style>
+
+<p>Discerning the disparities between human problems and technological problems contributes grounded context for humanizing technological advancement to complement life itself, rather than displace it or replace it.</p>
+
+
+</artitle>
+
+
+
+<!--=====================4.8 TECHNICAL ENTRY===================-->
+
+<artitle class= "blog-entry" id="empowered-enumerables">
+
+  	<h2> Empowered by Enumerables</h2>
+  	<h3> #Map </h3>
+
+
+<p>Let's start by simplifying this term with a definition:</p>
+
+<p>enumerable [ih-noo-mer-uh-buh l, ih-nyoo-]<br>
+adjective<br>
+1. countable (def 2b)<br></p>
+
+<p>So enumerable simply means something that is countable.</p>
+
+<h6>Enumerables in the Ruby Language</h6>
+
+
+<p>An Enumerable is essentially a module that contains a considerable amount of methods and can be "mixed-in" with classes, primarily being employed by the #Array and #Hash classes.</p>
+
+
+<h6>Checking Enumerable Methods</h6>
+
+<p> It is possible to see all the methods that are provided by Enumerable by checking the output of the following method:
+</p>
+<p>Enumerable.instance_methods.sort</p>
+
+<p>=> [:all?, :any?, :chunk, :collect, :collect_concat, :count, :cycle,
+    :detect, :drop, :drop_while, :each_cons, :each_entry, :each_slice,
+    :each_with_index, :each_with_object, :entries, :find, :find_all, 
+    :find_index, :first, :flat_map, :grep, :group_by, :include?, :inject, 
+    :map, :max, :max_by, :member?, :min, :min_by, :minmax, :minmax_by, 
+    :none?, :one?, :partition, :reduce, :reject, :reverse_each, :select, 
+    :slice_before, :sort, :sort_by, :take, :take_while, :to_a, :zip]
+ </p>
+
+<h6>The Mapping Method</h6>
+
+<p>The mapping method returns a new array filled with whatever gets returned by the block each time it runs. In a sense, map is a transformative method that applies the block to each respective element and returns an array with the transformed elements.</p>
+
+<p>It is also virtually the same, if not exactly the same, as the #collect method.</p>
+
+<h6>#Map Examples</h6>
+<img id="sample_code" src="unit1_projects/images/sample_code.png" title="#Map sample usage syntax" />
+				<style> #sample_code {
+						display: block;
+						width: 80%;
+						height: 450px;
+						margin: 0 auto;
+						}
+				</style>
+
+</artitle>
 <!--=====================3.8 CULTURAL ENTRY===================-->
 
   <artitle class= "blog-entry" id="training-thoughts">
@@ -293,7 +410,7 @@ As a part of our Phase 0, Unit 1 exercises, we were given the task of choosing t
 
     <h5>AirBnbn</h5>
 
-<img class="review-image" src="airbnb.png" title="AirBnB"/>
+<img class="review-image" src="unit1_projects/images/airbnb.png" title="AirBnB"/>
 
 			</a>
 <p>Visual adjectives: clean, catchy, creative, simple, light</p>
@@ -306,7 +423,7 @@ As a part of our Phase 0, Unit 1 exercises, we were given the task of choosing t
 
 
 <h5>DROPBOX</h5>
-<img class="review-image" src="dropbox.png" title="DropBox"/>
+<img class="review-image" src="unit1_projects/images/dropbox.png" title="DropBox"/>
 <p>Visual adjectives: simple, fresh, open, inviting, innocent</p>
 <p>Content adjectives: minimal, well-sequenced, purposeful, actionable, case-study worthy</p>
 
@@ -316,7 +433,7 @@ The sketch and water color feel to the images is also on-point…it gives it a s
 <p>The only immediate actionable links on the home screen are Sign up, sign in, learn more, or download--all designated and distributed ideally. Value proposition is absolutely genius "your stuff, anywhere". The main page doesn't even include the company name, just the icon. Also, the images are dynamic and show how information is saved on a laptop and then is pushed into the other devices--splendid !</p>
 
 <h5>CODEPEN</h5>
-<img class="review-image" src="codepen.png" title="CodePen"/>
+<img class="review-image" src="unit1_projects/images/codepen.png" title="CodePen"/>
 <p>visual adjective: dark, clean, modern, basic, cool</p>
 <p>content adjectives: functional, accessible, clear, useful, essential</p>
 
